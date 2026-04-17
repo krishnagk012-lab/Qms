@@ -1,0 +1,27 @@
+# Node
+qms-frontend/node_modules/
+qms-frontend/dist/
+qms-frontend/.angular/
+
+# Maven
+qms-backend/target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit these)
+*.env
+.env.local
+
+# PDF output
+certificates/
+/tmp/
+
+# Docker
+*.log
